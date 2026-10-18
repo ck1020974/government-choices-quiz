@@ -1,0 +1,68 @@
+:root{font-size:22px;--paper:#fff;--wash:#edf4ff;--blue:#173f86;--ink:#182c49;--muted:#415774;--line:#c4d4e8;--teal:#08786d;--scale:1;color-scheme:light}
+*{box-sizing:border-box}body{margin:0;background:var(--wash);color:var(--ink);font-family:"Microsoft JhengHei","PingFang TC","Noto Sans TC",sans-serif;font-size:1rem;line-height:1.8;overflow-wrap:anywhere}button,input{font:inherit}button,a,summary,input{touch-action:manipulation}button{cursor:pointer}button:disabled{cursor:default}button,a,input,summary{outline-offset:5px}button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid var(--teal)}[hidden]{display:none!important}a{color:var(--blue);text-underline-offset:.2em}h1,h2,h3,p{margin:0}h1,h2,h3{line-height:1.4;letter-spacing:.01em}h1{font-size:2.55rem;font-weight:800}h2{font-size:1.65rem}h3{font-size:1.2rem}p+p{margin-top:.65rem}.topbar{border-top:7px solid var(--blue);border-bottom:1px solid var(--line);background:white}.topinner{max-width:1160px;margin:auto;padding:.6rem 1.2rem;display:flex;gap:1rem;align-items:center;justify-content:space-between}.brand{font-weight:700;font-size:1rem}.text-toggle{border:1px solid var(--line);background:white;color:var(--blue);padding:.3rem .65rem;border-radius:7px;font-size:.9rem;min-height:44px}.shell{max-width:1080px;padding:2.3rem 1.2rem 3rem;margin:auto}.intro{max-width:920px;margin:.7rem auto 1.8rem}.intro h1{margin-top:.6rem;max-width:15em}.intro .subtitle{font-size:1.45rem;font-weight:700;margin:1.1rem 0}.intro .lead{max-width:30em;font-size:1.05rem}.intro-number{font-size:1rem;color:var(--blue);font-weight:700}.intro-actions{display:flex;gap:.7rem;flex-wrap:wrap;margin:1.8rem 0}.button{border:2px solid var(--blue);border-radius:9px;background:var(--blue);color:white;padding:.6rem 1.15rem;min-height:56px;font-weight:700;font-size:1rem;text-align:center;line-height:1.6}.button.secondary{background:white;color:var(--blue)}.button:disabled{background:#dbe5f3;border-color:#dbe5f3;color:#526780}.button:not(:disabled):hover{filter:brightness(.95)}.minor{font-size:.9rem;color:var(--muted)}.intro-topics{border-top:2px solid var(--line);border-bottom:2px solid var(--line);padding:.9rem 0;margin-top:1.8rem;font-size:1.1rem;display:flex;gap:1.4rem;flex-wrap:wrap;font-weight:700}.reading-note{margin-top:1rem;color:var(--muted);font-size:.95rem}.quiz{max-width:900px;margin:auto}.progress-text{display:flex;align-items:center;justify-content:space-between;gap:1rem;font-size:.95rem;color:var(--muted);margin-bottom:.5rem}.progress-track{height:8px;background:#d4e1f5;border-radius:4px;overflow:hidden;margin-bottom:1.6rem}.progress-fill{height:100%;background:var(--blue);transition:width .15s}.question h1{font-size:1.9rem;margin-bottom:.75rem}.stem{font-size:1.15rem;margin-bottom:1.3rem}.options{border:0;padding:0;margin:0;min-width:0}.option{display:flex;align-items:flex-start;gap:.8rem;padding:.9rem 1rem;margin:.65rem 0;background:white;border:2px solid var(--line);border-radius:11px;cursor:pointer;transition:border-color .12s,background .12s;line-height:1.65}.option:hover{border-color:#7998c5}.option.selected{border-color:var(--blue);background:#e0ecff;box-shadow:inset 5px 0 var(--blue)}.option input{width:24px;height:24px;accent-color:var(--blue);flex:0 0 24px;margin:.3rem 0 0}.option input:focus-visible{outline:3px solid var(--teal)}.option-copy{flex:1;min-width:0}.option-title{display:block;font-weight:700;font-size:1.1rem}.option-description{display:block;font-size:1rem;color:#263e5c;margin-top:.15rem}.helper{margin:1.2rem 0;font-size:.95rem}.helper summary{font-weight:700;color:var(--blue);cursor:pointer}.helper p{margin:.65rem 0;background:white;padding:.8rem 1rem;border-left:4px solid var(--line)}.actions{display:flex;gap:.7rem;justify-content:space-between;margin:1.5rem 0 .5rem}.nav-tip{font-size:.9rem;color:var(--muted);min-height:1.8em}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.review h1{font-size:2rem}.review-list{padding:0;list-style:none;margin:1.5rem 0}.review-row{background:white;border-bottom:1px solid var(--line);padding:1rem;display:flex;align-items:flex-start;gap:1rem}.review-copy{flex:1}.review-title{font-weight:700;margin-bottom:.2rem}.review-answer{font-size:1rem;color:#263e5c}.edit{padding:.3rem .6rem;border:1px solid var(--line);background:white;color:var(--blue);border-radius:6px;font-size:.9rem;white-space:nowrap;min-height:44px}.result-heading{max-width:950px;padding:.5rem 0 1.7rem;border-bottom:3px solid var(--blue)}.result-label{color:var(--blue);font-weight:700;margin-bottom:.7rem;font-size:1.1rem}.result-heading h1{font-size:2.15rem;line-height:1.55}.percentage{font-size:3.4rem;color:var(--blue);white-space:nowrap}.result-subtitle{font-size:1.2rem;font-weight:700;margin:.75rem 0}.result-section{padding:1.6rem 0;border-bottom:1px solid var(--line)}.result-section h2{margin-bottom:.8rem}.result-section h3{margin:1rem 0 .4rem}.result-section p{max-width:38em;font-size:1rem}.answer-list{list-style:none;margin:0;padding:0}.answer-list li{padding:.7rem 0;border-bottom:1px solid var(--line)}.answer-list li:last-child{border:none}.answer-label{font-size:.95rem;font-weight:700;color:var(--blue)}.different{background:white;padding:1rem;margin:.75rem 0;border-left:4px solid var(--teal)}.different p{margin:.3rem 0}.country-rank{margin:1rem 0;background:white;border:1px solid var(--line);border-radius:9px;padding:.5rem 1rem}.country-rank summary{display:flex;align-items:center;justify-content:space-between;gap:1rem;cursor:pointer;min-height:64px;font-size:1.15rem;font-weight:700}.country-rank summary::after{content:"＋";color:var(--blue)}.country-rank[open] summary::after{content:"－"}.country-summary{flex:1}.country-score{color:var(--blue);white-space:nowrap;font-size:1.4rem}.country-type{font-size:.95rem;font-weight:400;color:var(--muted);display:block}.country-body{padding:.7rem 0 1rem;border-top:1px solid var(--line)}.country-body h3{margin:1rem 0 .4rem}.country-body p{font-size:1rem}.country-body details{margin:.7rem 0}.sources{padding-left:1.2rem;font-size:.9rem}.sources li{margin:.5rem 0}.discussion{padding:1.2rem;background:#dbeef0;border-left:5px solid var(--teal);font-size:1.15rem;font-weight:700}.explanations details{padding:1rem 0;border-bottom:1px solid var(--line)}.explanations summary{cursor:pointer;color:var(--blue);font-weight:700;font-size:1rem}.explanations p{margin:.8rem 0}.footer{max-width:1080px;margin:auto;border-top:1px solid var(--line);padding:1rem 1.2rem 1.8rem;font-size:.9rem;color:var(--muted)}.footer p{margin:.25rem 0}.print-note{display:none}#live{min-height:0}.chips{display:flex;gap:.5rem;flex-wrap:wrap}.chips span{font-size:.95rem;border-left:3px solid var(--blue);padding:.1rem .6rem;background:white}.status-note{background:white;border-left:4px solid var(--teal);padding:.8rem 1rem;margin:1rem 0}.score-table{width:100%;border-collapse:collapse;font-size:.9rem}.score-table th,.score-table td{text-align:left;padding:.6rem .3rem;border-bottom:1px solid var(--line)}.score-table td:last-child{text-align:right}.score-table caption{text-align:left;margin:.5rem 0;font-weight:700}.section-actions{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:1.5rem}
+@media(max-width:640px){:root{font-size:20px}.topinner{padding:.55rem .8rem;gap:.5rem}.brand{font-size:.95rem}.text-toggle{padding:.3rem .5rem}.shell{padding:1.4rem .8rem 2rem}h1{font-size:2.15rem}.intro h1{font-size:2.25rem}.intro .subtitle{font-size:1.3rem}.intro-topics{gap:.5rem 1rem}.question h1{font-size:1.65rem}.stem{font-size:1.1rem}.option{padding:.75rem .7rem;gap:.65rem}.option-title{font-size:1.1rem}.option-description{font-size:1rem}.actions .button{padding:.55rem .8rem}.review-row{padding:.85rem .65rem;gap:.5rem}.result-heading h1{font-size:1.8rem}.percentage{font-size:2.6rem}.country-rank{padding:.4rem .7rem}.country-score{font-size:1.2rem}.review h1{font-size:1.8rem}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+@media print{body{background:white;color:black}:root{font-size:20px}.topbar,.footer,.section-actions,.text-toggle,.intro-actions,.button,.edit{display:none}.shell{max-width:none;padding:0}.result-section{break-inside:avoid}.print-note{display:block}.country-rank{break-inside:avoid}.country-rank:not([open]){display:none}.percentage{color:black}}
+
+/* 選舉海報、選票與蓋票記號。保留大字閱讀。 */
+:root{--wash:#f3f6fc;--vote:#cf3d3d}
+body{border-top:8px solid var(--blue)}
+.topbar{border-top:8px solid var(--blue);box-shadow:inset 0 3px white,inset 0 6px var(--vote)}
+.brand{display:flex;align-items:center;gap:.5rem}
+.brand-mark{display:inline-grid;place-items:center;width:1.3rem;height:1.3rem;background:var(--blue);color:white;font-size:1rem;line-height:1;border-radius:2px;flex:0 0 auto}
+.intro.election-hero{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(240px,1fr);gap:1.2rem;max-width:1040px;margin:1.2rem auto 1.5rem;align-items:center;padding:1rem 0 1.5rem}
+.election-hero h1{font-size:2.35rem;line-height:1.5;margin:0;font-weight:900;letter-spacing:0}
+.hero-description{font-size:1.1rem;margin-top:.85rem}
+.election-hero .intro-actions{margin:1.6rem 0 .8rem}
+.election-hero .button{border-radius:3px;padding:.6rem 1.35rem;box-shadow:5px 5px 0 #bed0ec}
+.election-hero .button.secondary{box-shadow:none}
+.ballot-visual{max-width:355px;width:100%;justify-self:end}
+.ballot-visual svg{width:100%;height:auto;display:block}
+.role-intro{background:white;border-left:5px solid var(--blue);padding:.75rem 1rem;margin:.9rem 0 1rem;line-height:1.65}
+.role-intro p{display:grid;grid-template-columns:5em minmax(0,1fr);gap:.7rem}
+.role-intro p+p{margin-top:.6rem}
+.role-intro strong{color:var(--blue);font-size:1rem}
+.role-intro span{font-size:1rem}
+.option{border-radius:3px}
+.option.selected{background:#e5efff;box-shadow:inset 5px 0 var(--blue)}
+.option input{appearance:none;-webkit-appearance:none;display:grid;place-content:center;flex:0 0 28px;width:28px;height:28px;border:2px solid var(--blue);border-radius:1px;background:white;margin-top:.25rem}
+.option input:checked::after{content:"✓";font-size:27px;color:var(--vote);line-height:1;font-weight:900}
+.result-heading{border-bottom:5px solid var(--blue);position:relative}
+.result-label::before{content:"✓";display:inline-block;color:var(--vote);font-weight:900;margin-right:.4rem}
+.footer{font-size:.9rem}
+@media(max-width:640px){.intro.election-hero{grid-template-columns:1fr;gap:1rem;margin:.3rem auto .8rem;padding:.3rem 0}.election-hero h1{font-size:1.9rem;line-height:1.45}.election-hero .intro-actions{margin:1.2rem 0 .65rem}.hero-description{font-size:1rem}.ballot-visual{justify-self:center;max-width:185px}.role-intro p{grid-template-columns:1fr;gap:.1rem}.role-intro{padding:.65rem .8rem}.brand-mark{width:1.15rem;height:1.15rem}.topinner{gap:.45rem}.text-toggle{flex-shrink:0}}
+
+/* 首頁依可用高度安排，不靠遮住內容來取消捲動。 */
+body[data-view="home"]{min-height:100svh;display:flex;flex-direction:column}
+body[data-view="home"] .shell{width:100%;flex:1;display:flex;align-items:center;padding:clamp(12px,3svh,32px) 1.2rem;margin:0 auto}
+body[data-view="home"] .intro.election-hero{width:100%;margin:0;padding:0}
+body[data-view="home"] .footer{width:calc(100% - 2rem);flex-shrink:0;padding:.45rem .3rem;margin:0 auto}
+.question-helper{margin:.7rem 0 1rem}
+.question-helper p{margin:.45rem 0 0}
+@media(max-width:640px){body[data-view="home"] .shell{padding:12px .8rem}body[data-view="home"] .election-hero{gap:.55rem}body[data-view="home"] .election-hero h1{font-size:clamp(1.5rem,8.5vw,1.9rem);line-height:1.35}body[data-view="home"] .hero-description{margin-top:.6rem}body[data-view="home"] .intro-actions{margin:1rem 0 .35rem}body[data-view="home"] .ballot-visual{width:clamp(90px,23svh,140px)}body[data-view="home"] .footer{line-height:1.5}}
+@media(max-height:520px){body[data-view="home"] .shell{padding:12px .8rem}body[data-view="home"] .election-hero h1{font-size:1.65rem;line-height:1.3}body[data-view="home"] .hero-description{margin-top:.35rem;font-size:1rem}body[data-view="home"] .intro-actions{margin:.65rem 0 .25rem}body[data-view="home"] .ballot-visual{max-width:180px;width:min(36svh,180px)}body[data-view="home"] .footer{line-height:1.4;padding:.3rem}body[data-view="home"] .election-hero{grid-template-columns:minmax(0,1fr) minmax(90px,.45fr);gap:.5rem}body[data-view="home"] .election-hero .button{min-height:48px;padding:.4rem .75rem}}
+
+.footer{text-align:center}
+
+body[data-view="question"] .shell{padding-bottom:1.25rem}
+body[data-view="question"] .actions{margin-bottom:0}
+
+/* 選項以標題、說明分層，讓大字的長句更容易閱讀。 */
+.option{padding:1rem 1.05rem;margin:.85rem 0}
+.option-title{line-height:1.5}
+.option-description{line-height:1.85;margin-top:.4rem}
+@media(max-width:640px){.option{padding:.8rem;margin:.75rem 0}.option-description{line-height:1.8}}
+
+.result-compact{max-width:900px;margin:auto}
+.result-compact .result-heading{padding:.2rem 0 1rem}
+.result-compact .result-heading>p:not(.result-subtitle){margin-top:.65rem}
+.compact-discussion{padding:1.2rem 0;border-bottom:0}
+.compact-discussion h2{font-size:1.25rem;margin-bottom:.6rem}
+.compact-discussion .discussion{font-size:1.05rem;padding:.85rem 1rem}
+.compact-actions{margin:.2rem 0 1.3rem}
+.result-extras{border-top:1px solid var(--line)}
+.result-more{border-bottom:1px solid var(--line);padding:.75rem 0;font-size:1rem}
+.result-more>summary{color:var(--blue);font-weight:700;cursor:pointer;font-size:1rem;line-height:1.6}
+.result-detail-body{padding:.7rem 0 .5rem}
+.result-detail-body h3{margin:1rem 0 .4rem}
+.result-detail-body p+p{margin-top:.65rem}
