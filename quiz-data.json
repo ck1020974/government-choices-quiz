@@ -1,29 +1,29 @@
 {
-  "version": "2.2",
+  "version": "4.2",
   "checked_date": "2026-10-12",
   "title": "你的理想政府，最接近哪一國？",
   "subtitle": "你心中的政府，最接近哪個國家？",
-  "intro": "12題，選出你想要的政治規則。",
+  "intro": "5題，選出你想要的政府規則。",
   "questions": [
     {
       "id": "Q1",
-      "title": "你希望政府怎麼分工？",
+      "title": "誰來帶領政府做事？",
       "stem": "",
       "options": [
         {
           "id": "A",
-          "text": "元首可以是國王或總統，為象徵角色。總理帶領內閣處理政務，並向國會負責。",
-          "label": "元首代表國家，總理負責施政"
+          "label": "總理帶領政府",
+          "text": "國王或總統只代表國家。總理帶領內閣施政，需要國會多數支持。"
         },
         {
           "id": "B",
-          "text": "總統同時擔任國家元首與行政首長，領導行政團隊。即使另設總理也是協助總統。",
-          "label": "總統代表國家，並主導施政"
+          "label": "總統帶領政府",
+          "text": "總統既代表國家，也親自領導行政，指揮各部會首長。"
         },
         {
           "id": "C",
-          "text": "總統擁有實際行政權力，總理也帶領內閣處理政務。總理與內閣須向國會負責。",
-          "label": "總統代表國家，與總理分擔施政"
+          "label": "總統和總理分工",
+          "text": "總統握有實權；總理帶領內閣處理日常政務，並向國會負責。"
         }
       ],
       "weight": 18,
@@ -52,43 +52,32 @@
       "source_ids": [
         "UK1",
         "DE1",
-        "JP1",
-        "CA1",
-        "AU1",
-        "SE2",
-        "DK2",
         "US1",
         "KR1",
         "FR1",
-        "PT1",
         "TW1"
       ],
-      "help": "「元首」代表國家，可能是國王或總統；「施政」是規劃並執行政策。總理帶領由部長組成的內閣。"
+      "help": "「元首」代表國家，可能是國王或總統；「內閣」是總理和各部會首長組成的團隊。"
     },
     {
       "id": "Q2",
-      "title": "你希望元首如何產生？",
-      "stem": "代表國家的人，可以透過不同方式產生。",
+      "title": "國家的元首怎麼產生？",
+      "stem": "",
       "options": [
         {
           "id": "A",
-          "text": "由王室成員依繼承規則擔任元首，權力受到憲法限制。",
-          "label": "保留世襲君主"
+          "label": "國王世襲",
+          "text": "王室成員依規則繼承，權力受憲法限制，主要是國家的象徵。"
         },
         {
           "id": "B",
-          "text": "由國會或其他民意代表機構選出元首。",
-          "label": "由民意代表選出"
+          "label": "國會選出",
+          "text": "人民先選出國會議員，再由國會（或包含議員的選舉團）選出元首。"
         },
         {
           "id": "C",
-          "text": "由全國選民直接投票選出元首。",
-          "label": "全民直接選舉"
-        },
-        {
-          "id": "D",
-          "text": "各地選民先選出選舉人，再由選舉人選出元首。",
-          "label": "由選舉人間接選出"
+          "label": "人民選出",
+          "text": "全國選民投票選出元首。多數國家直接投票，美國則是先選選舉人再選出。"
         }
       ],
       "weight": 10,
@@ -100,133 +89,43 @@
         74,
         95
       ],
-      "explanation": "元首如何產生，與是否掌握行政實權是兩件事。德國總統由聯邦大會選出；美國採選舉人團；法國、葡萄牙、臺灣及南韓採直接選舉。",
+      "explanation": "元首怎麼產生，和他有沒有行政實權是兩件事。英國元首是國王；德國總統由聯邦大會選出；法國、臺灣、南韓由人民直接選出；美國則是人民先選選舉人，再由選舉人選出總統。",
       "partial_matches": [
         [
           "B",
           "C",
-          0.5
-        ],
-        [
-          "C",
-          "D",
-          0.5
-        ],
-        [
-          "B",
-          "D",
           0.5
         ]
       ],
       "source_ids": [
         "UK1",
         "DE1",
-        "JP1",
-        "CA1",
-        "AU1",
-        "SE2",
-        "DK2",
         "US1",
         "KR1",
         "FR1",
-        "PT1",
         "TW1"
       ],
       "help": ""
     },
     {
-      "id": "Q3",
-      "title": "你希望如何決定行政團隊的人選？",
-      "stem": "國會對總理或各部會首長的人選，應有多大的決定權？",
-      "options": [
-        {
-          "id": "A",
-          "label": "以國會支持為基礎",
-          "text": "總理由國會選出，或由能獲得國會支持的人擔任。"
-        },
-        {
-          "id": "B",
-          "label": "總統提名，國會同意",
-          "text": "總統提出總理或各部會首長人選，經國會同意後任命。"
-        },
-        {
-          "id": "C",
-          "label": "總統任命，不須事先同意",
-          "text": "總統直接任命總理或各部會首長，上任不需要先經國會同意。"
-        }
-      ],
-      "weight": 14,
-      "topic": "內閣形成與正當性來源",
-      "lecture_pages": [
-        21,
-        22,
-        23,
-        48,
-        74,
-        81,
-        82,
-        83
-      ],
-      "explanation": "行政人選可由國會選出、以國會支持為基礎，或由總統任命。美國部會首長須經參議院同意；南韓總理須經國會同意；臺灣行政院長不須事先取得立法院同意。上任程序與上任後的監督不同。",
-      "partial_matches": [
-        [
-          "A",
-          "B",
-          0.5
-        ],
-        [
-          "B",
-          "C",
-          0.5
-        ]
-      ],
-      "source_ids": [
-        "UK1",
-        "DE1",
-        "JP1",
-        "CA1",
-        "AU1",
-        "SE2",
-        "DK2",
-        "US1",
-        "KR1",
-        "FR1",
-        "PT1",
-        "TW1"
-      ],
-      "help": "上任不須國會事先同意，不代表上任後不受國會監督。",
-      "country_overrides": {
-        "fr": {
-          "A": 1,
-          "B": 0.5,
-          "C": 0.5
-        },
-        "pt": {
-          "A": 1,
-          "B": 0.5,
-          "C": 0.5
-        }
-      }
-    },
-    {
       "id": "Q4",
-      "title": "你希望國會如何制衡行政團隊？",
-      "stem": "行政團隊沒有違法，但國會多數議員已不支持它的施政。國會可以怎麼做？",
+      "title": "國會不再支持政府時，可以讓它下臺嗎？",
+      "stem": "政府沒有違法，只是國會多數議員不支持它的做法了。",
       "options": [
         {
           "id": "A",
-          "label": "可以要求下臺，接任人選另依程序決定",
-          "text": "國會可通過不信任案，要求內閣下臺，不必在表決時同時選出新總理。"
+          "label": "可以，投票就能倒閣",
+          "text": "國會通過不信任案，內閣就要下臺，或改選國會讓選民決定。"
         },
         {
           "id": "B",
-          "label": "可以要求下臺，須同時選出接任者",
-          "text": "國會須在通過不信任案的同時選出新總理，才能撤換現任總理。"
+          "label": "可以，但要先找好接班人",
+          "text": "國會必須同時選出新總理，才能換掉現任總理，避免政府沒人負責。"
         },
         {
           "id": "C",
-          "label": "不能以不信任案要求下臺，改以其他方式監督",
-          "text": "國會無不信任案的設計，僅可透過其他方式制衡政府。"
+          "label": "不行，做滿任期",
+          "text": "國會不能用不信任案讓政府下臺，只能用審預算、調查等方式監督。"
         }
       ],
       "weight": 14,
@@ -251,43 +150,32 @@
       "source_ids": [
         "UK1",
         "DE1",
-        "JP1",
-        "CA1",
-        "AU1",
-        "SE2",
-        "DK2",
         "US1",
         "KR1",
         "FR1",
-        "PT1",
         "TW1"
       ],
-      "help": "「不信任案」是國會表決是否繼續支持內閣的程序，與違法時的彈劾不同。"
+      "help": "這裡說的是「不信任案」：國會投票表示不再支持內閣。違法時的「彈劾」是另一回事。"
     },
     {
       "id": "Q5",
-      "title": "你希望如何規定解散國會的權限？",
-      "stem": "行政團隊與國會僵持不下，哪一種作法比較能接受？",
+      "title": "政府和國會僵持不下，可以提前改選國會嗎？",
+      "stem": "",
       "options": [
         {
           "id": "A",
-          "label": "總理或政府可以推動解散",
-          "text": "政府可推動國會改選，尋求選民支持；但也可能挑選對自己有利的選舉時機。"
+          "label": "可以，由總理請求",
+          "text": "交給選民裁決。有的國家隨時可以，有的只限特殊情況，例如被倒閣之後。"
         },
         {
           "id": "B",
-          "label": "只有特定情況，才能解散",
-          "text": "只有符合憲法規定的特殊情況時才能啟動，例如：組閣失敗或不信任案通過。"
+          "label": "可以，由總統決定",
+          "text": "總統出面打破僵局；但總統也可能為了自己的政治利益這樣做。"
         },
         {
           "id": "C",
-          "label": "總統可以推動解散",
-          "text": "總統可推動國會改選，尋求化解僵局；但也可能為了自身政治利益推動改選。"
-        },
-        {
-          "id": "D",
-          "label": "不能因僵局解散國會",
-          "text": "國會完成原定任期，雙方繼續協商；但政策僵局可能長期無法解決。"
+          "label": "不行，做滿任期",
+          "text": "雙方只能繼續協商，僵局可能拖很久。"
         }
       ],
       "weight": 14,
@@ -303,59 +191,43 @@
         114,
         115
       ],
-      "explanation": "解散國會是讓議員提前改選。英國等國可由政府推動；法國、葡萄牙總統須依法行使。臺灣須先通過不信任案，才有解散立法院的機制；美國、南韓總統無此權限。",
+      "explanation": "解散國會是讓議員提前改選。英國可由首相請求；德國、臺灣只限特殊情況，例如臺灣須先通過不信任案，行政院院長才能呈請總統解散立法院；法國總統可依憲法解散國民議會；美國、南韓總統沒有這個權限。",
       "partial_matches": [
         [
           "A",
           "B",
-          0.5
-        ],
-        [
-          "A",
-          "C",
-          0.5
-        ],
-        [
-          "B",
-          "C",
           0.5
         ]
       ],
       "source_ids": [
         "UK1",
         "DE1",
-        "JP1",
-        "CA1",
-        "AU1",
-        "SE2",
-        "DK2",
         "US1",
         "KR1",
         "FR1",
-        "PT1",
         "TW1"
       ],
-      "help": "「解散國會」是提前結束議員任期，讓選民重新選出國會，不是取消國會。"
+      "help": "「解散國會」是讓議員提前改選、由選民重新決定，不是取消國會。"
     },
     {
       "id": "Q6",
-      "title": "你希望如何安排議員與部會首長的職務？",
-      "stem": "部會首長負責執行政策，國會議員負責立法與監督。兩種職務應怎麼安排？",
+      "title": "國會議員可以同時當部長嗎？",
+      "stem": "",
       "options": [
         {
           "id": "A",
-          "label": "可以兼任，部會首長主要由議員擔任",
-          "text": "部會首長主要從國會議員中選出，並保留議員職務，有助於政府與國會溝通；但兼任者也可能需要監督自己參與的政府。"
+          "label": "可以，部長多是議員",
+          "text": "政府和國會比較好溝通；但議員等於要監督自己參與的政府。"
         },
         {
           "id": "B",
-          "label": "可以兼任，部會首長人選不限於議員",
-          "text": "部會首長可由議員兼任，也可由國會以外的人擔任，保留選才彈性；但兼任者仍可能面臨施政與監督的角色衝突。"
+          "label": "可以，也能找非議員",
+          "text": "選人更有彈性；兼任的人一樣會遇到角色衝突。"
         },
         {
           "id": "C",
-          "label": "不得兼任，須辭去或暫停行使議員職務",
-          "text": "議員出任部會首長時，須辭去或暫停行使議員職務，讓施政與監督由不同的人負責；但政府與國會的協調可能需要更多安排。"
+          "label": "不行，只能二選一",
+          "text": "做事和監督分給不同的人；但政府和國會需要更多協調。"
         }
       ],
       "weight": 10,
@@ -378,214 +250,13 @@
       "source_ids": [
         "UK1",
         "DE1",
-        "JP1",
-        "CA1",
-        "AU1",
-        "SE2",
-        "DK2",
         "US1",
         "KR1",
         "FR1",
-        "PT1",
         "TW1",
         "KR2"
       ],
-      "help": ""
-    },
-    {
-      "id": "Q7",
-      "title": "你希望人民如何提出立法主張？",
-      "stem": "人民想改變法律時，哪一種提案途徑比較能接受？",
-      "options": [
-        {
-          "id": "A",
-          "label": "透過民意代表提出",
-          "text": "人民向議員表達訴求，再由議員正式提案。"
-        },
-        {
-          "id": "B",
-          "label": "連署達標後，交國會審議",
-          "text": "人民可提出法律案，是否通過仍由國會決定。"
-        },
-        {
-          "id": "C",
-          "label": "連署達標後，交全民投票",
-          "text": "符合規定的提案由選民投票決定；可提案的事項依制度限制。"
-        }
-      ],
-      "weight": 6,
-      "topic": "人民參與立法與直接民主",
-      "lecture_pages": [],
-      "explanation": "代表提案、人民連署及公投可並存。葡萄牙允許人民連署提出法律案；臺灣立法原則公投通過後，仍須研擬法律案、送立法院審議。請願或國會討論，不等於人民直接立法。",
-      "partial_matches": [],
-      "source_ids": [
-        "UKPET",
-        "DEPET",
-        "JPET",
-        "CAPET",
-        "AUPET",
-        "SELAW",
-        "DKCIT",
-        "US1",
-        "KRPET",
-        "FRRIP",
-        "PTCIT",
-        "TWREF",
-        "PT1",
-        "KR1",
-        "DE1",
-        "FR1"
-      ],
-      "help": "三種途徑可能並存；本題比較全國層級。連署達標不代表法律自動通過。",
-      "country_overrides": {
-        "pt": {
-          "A": 1,
-          "B": 1,
-          "C": 0.5
-        },
-        "tw": {
-          "A": 1,
-          "B": 0.5,
-          "C": 1
-        },
-        "dk": {
-          "A": 1,
-          "B": 0.5,
-          "C": 0
-        },
-        "kr": {
-          "A": 1,
-          "B": 0.5,
-          "C": 0
-        },
-        "fr": {
-          "A": 1,
-          "B": 0,
-          "C": 0.5
-        }
-      }
-    },
-    {
-      "id": "Q8",
-      "title": "你希望中央與地方如何分配權力？",
-      "stem": "中央與地方可能對同一項政策有不同主張，政策決定權應如何安排？",
-      "options": [
-        {
-          "id": "A",
-          "label": "由中央主導政策決定",
-          "text": "中央決定主要政策，地方依共同規則執行；規則較一致，但較難照顧各地差異。"
-        },
-        {
-          "id": "B",
-          "label": "讓地方決定較多政策",
-          "text": "地方有較大的政策決定權，中央處理共同事務；能回應地方需求，但全國政策可能不一致。"
-        },
-        {
-          "id": "C",
-          "label": "先按事務性質分配權限",
-          "text": "依事務性質決定由中央或地方負責；可按事項分工，但可能產生權限歸屬爭議。"
-        }
-      ],
-      "weight": 7,
-      "topic": "垂直分權延伸",
-      "lecture_pages": [
-        132,
-        133,
-        134,
-        135,
-        147,
-        148
-      ],
-      "explanation": "中央主導重視共同規則，地方自主重視在地需求；均權原則依事務性質分配權限，不是各分一半。各國通常結合多種安排，單一制不等於完全中央集權，地方自主也不必然是聯邦制。",
-      "partial_matches": [
-        [
-          "A",
-          "B",
-          0.5
-        ],
-        [
-          "A",
-          "C",
-          0.5
-        ],
-        [
-          "B",
-          "C",
-          0.5
-        ]
-      ],
-      "source_ids": [
-        "UK1",
-        "DE1",
-        "JP1",
-        "CA1",
-        "AU1",
-        "SE2",
-        "DK2",
-        "US1",
-        "KR1",
-        "FR1",
-        "PT1",
-        "TW1",
-        "TW111",
-        "SELOCAL",
-        "TW2"
-      ],
-      "help": "本題比較誰有權決定政策，不是只問由誰執行。"
-    },
-    {
-      "id": "Q9",
-      "title": "你希望國會議員如何選出？",
-      "stem": "選國會議員時，地方代表與政黨代表應如何安排？",
-      "options": [
-        {
-          "id": "A",
-          "label": "以選區候選人為主",
-          "text": "選民選出自己選區的議員，重視地方代表；各黨的總席次比例可能與得票比例有落差。"
-        },
-        {
-          "id": "B",
-          "label": "以政黨得票比例為主",
-          "text": "依政黨得票分配席次，再依制度決定當選人，重視政黨支持的比例；議員與特定地方的連結依選區及名單設計而異。"
-        },
-        {
-          "id": "C",
-          "label": "結合選區與政黨名單",
-          "text": "一部分議員由選區選出，一部分依政黨票分配席次，同時安排地方與政黨代表；兩部分的席次如何計算，各國不同。"
-        }
-      ],
-      "weight": 7,
-      "topic": "選舉制度延伸",
-      "lecture_pages": [],
-      "explanation": "選區代表由選民選出地方候選人，政黨名單依得票比例分配席次，兩者也可結合。臺灣區域與不分區立委的產生方式不同，但都參與全國立法與監督；各國混合選制的算法不一定相同。",
-      "partial_matches": [
-        [
-          "A",
-          "C",
-          0.5
-        ],
-        [
-          "B",
-          "C",
-          0.5
-        ]
-      ],
-      "source_ids": [
-        "UK2",
-        "DE4",
-        "JP2",
-        "CA2",
-        "AU3",
-        "SE3",
-        "DK3",
-        "US1",
-        "KR3",
-        "FR2",
-        "PT3",
-        "TW1",
-        "TWCEC"
-      ],
-      "help": "以臺灣為例：區域立委票選候選人；不分區的政黨票選政黨，再依規定分配名單席次。另有原住民立委。"
+      "help": "部長負責執行政策，議員負責立法與監督政府。"
     }
   ],
   "countries": [
@@ -596,13 +267,9 @@
       "profile": {
         "Q1": "A",
         "Q2": "A",
-        "Q3": "A",
         "Q4": "A",
         "Q5": "A",
-        "Q6": "A",
-        "Q7": "A",
-        "Q8": "B",
-        "Q9": "A"
+        "Q6": "A"
       },
       "feature": "政府以維持下議院信任為基礎，元首主要代表國家。下議院採一輪相對多數選舉，上議院主要以任命等方式組成。",
       "tradeoff": "國會多數與內閣若高度一致，政策較容易推動，也需要有效的反對黨及其他監督。",
@@ -614,8 +281,9 @@
         "UK4",
         "UKPET"
       ],
-      "notes": "君主仍有形式及特定保留權限；避免說元首完全沒有任何憲法權限。解散下議院須依現行憲政程序。 人民立法參與：全國請願達門檻可獲考慮安排辯論，不等於人民正式提出法律案。",
-      "short_feature": "由總理與內閣負責施政，政府須維持國會信任。元首主要代表國家。"
+      "notes": "君主仍有形式及特定保留權限；避免說元首完全沒有任何憲法權限。解散下議院須依現行憲政程序。",
+      "short_feature": "由總理與內閣負責施政，政府須維持國會信任。元首主要代表國家。",
+      "group": "parl"
     },
     {
       "id": "de",
@@ -624,13 +292,9 @@
       "profile": {
         "Q1": "A",
         "Q2": "B",
-        "Q3": "A",
         "Q4": "B",
-        "Q5": "B",
-        "Q6": "B",
-        "Q7": "A",
-        "Q8": "B",
-        "Q9": "C"
+        "Q5": "A",
+        "Q6": "B"
       },
       "feature": "總理由聯邦議院選出。國會須同時選出繼任者，才能透過建設性不信任投票撤換總理；邦政府透過聯邦參議院參與中央立法。",
       "tradeoff": "更換政府須形成替代多數，能減少只反對而無接任方案的情形，但也提高撤換門檻。",
@@ -642,142 +306,9 @@
         "DE4",
         "DEPET"
       ],
-      "notes": "聯邦參議院是代表邦政府的特殊機關。德國選制以政黨票決定席次比例，不能直接等同臺灣並立制。 人民立法參與：聯邦請願可促成議會處理；地方人民倡議不直接當成全國法律提案權。",
-      "short_feature": "總理由國會選出。撤換總理時，國會須同時選出接任者。"
-    },
-    {
-      "id": "jp",
-      "name": "日本",
-      "system": "內閣制",
-      "profile": {
-        "Q1": "A",
-        "Q2": "A",
-        "Q3": "A",
-        "Q4": "A",
-        "Q5": "A",
-        "Q6": "A",
-        "Q7": "A",
-        "Q8": "A",
-        "Q9": "C"
-      },
-      "feature": "天皇為國家與國民統合的象徵，行政權屬內閣。首相由國會議員中選出，多數部長須為議員；國會兩院均由選民選出。",
-      "tradeoff": "首相與內閣須維持國會信任；政黨支持與議院關係會影響政策推動，制度本身不保證政黨輪替或行政效率。",
-      "discussion": "由議員擔任部長，會讓政策更容易推動，還是讓監督更困難？",
-      "sources": [
-        "JP1",
-        "JP2",
-        "JPET"
-      ],
-      "notes": "眾議院一般解散實務不只限於第69條不信任情形。第7條涉及天皇在內閣建議與承認下的國事行為。 人民立法參與：人民可透過議員介紹提出請願，與議員或內閣正式提出法律案不同。",
-      "short_feature": "天皇主要代表國家，首相帶領內閣施政，政府向國會負責。"
-    },
-    {
-      "id": "ca",
-      "name": "加拿大",
-      "system": "內閣制",
-      "profile": {
-        "Q1": "A",
-        "Q2": "A",
-        "Q3": "A",
-        "Q4": "A",
-        "Q5": "A",
-        "Q6": "A",
-        "Q7": "A",
-        "Q8": "B",
-        "Q9": "A"
-      },
-      "feature": "政府須維持下議院信任，元首由總督代表行使相關職能。採聯邦架構；下議院直接選舉，參議院透過任命產生。",
-      "tradeoff": "聯邦與兩院架構提供不同層次的代表與審議，也需要處理中央地方協調及非民選上議院的正當性問題。",
-      "discussion": "你接受由任命產生的參議院審查民選下議院通過的法律嗎？",
-      "sources": [
-        "CA1",
-        "CA2",
-        "CAPET"
-      ],
-      "notes": "少數政府可依其他政黨的支持或容忍留任，不必然組成聯合內閣。 人民立法參與：人民請願可提交下議院，與人民直接提出一般公共法律案不同。",
-      "short_feature": "總理與內閣須維持國會信任，中央與地方採聯邦架構。"
-    },
-    {
-      "id": "au",
-      "name": "澳洲",
-      "system": "內閣制",
-      "profile": {
-        "Q1": "A",
-        "Q2": "A",
-        "Q3": "A",
-        "Q4": "A",
-        "Q5": "A",
-        "Q6": "A",
-        "Q7": "A",
-        "Q8": "B",
-        "Q9": "A"
-      },
-      "feature": "政府依眾議院支持組成，採聯邦架構，兩院皆民選。眾議院使用偏好投票，參議院使用比例代表方式。",
-      "tradeoff": "民選參議院能形成不同於眾議院的多數，提供監督，也可能增加行政立法協商與預算衝突。",
-      "discussion": "你希望政府受到另一個民選議院的強力監督，即使政策可能變慢嗎？",
-      "sources": [
-        "AU1",
-        "AU2",
-        "AU3",
-        "AUPET"
-      ],
-      "notes": "參議院不能以普通不信任案直接取代眾議院的信任角色，但預算供給權很重要。1975年事件等保留權爭議不放入基本配對題。 人民立法參與：人民可向聯邦國會請願，不因此取得全國法律案或公投的直接啟動權。",
-      "short_feature": "總理依國會支持組成政府，兩個議院都由選民選出。"
-    },
-    {
-      "id": "se",
-      "name": "瑞典",
-      "system": "內閣制",
-      "profile": {
-        "Q1": "A",
-        "Q2": "A",
-        "Q3": "A",
-        "Q4": "A",
-        "Q5": "A",
-        "Q6": "C",
-        "Q7": "A",
-        "Q8": "B",
-        "Q9": "B"
-      },
-      "feature": "國王主要代表國家。國會以多數未反對的程序確認總理；採一院制與比例代表選舉，部長任職期間由替補者行使其議員職務。",
-      "tradeoff": "多黨與少數政府可以反映較多立場，但政策與組閣仍可能需要持續協商。",
-      "discussion": "如果沒有過半議員支持，但也沒有過半議員反對，你接受這位總理上任嗎？",
-      "sources": [
-        "SE1",
-        "SE2",
-        "SE3",
-        "SE4",
-        "SELAW"
-      ],
-      "notes": "瑞典依然是內閣制，職務不兼行不會自行將它變成總統制。額外選舉不改變原定例行選舉日期。 人民立法參與：全國法律提案由政府或議員提出；人民表達訴求不等於正式提案。",
-      "short_feature": "國會確認總理人選，政府須維持國會信任；國王主要代表國家。"
-    },
-    {
-      "id": "dk",
-      "name": "丹麥",
-      "system": "內閣制",
-      "profile": {
-        "Q1": "A",
-        "Q2": "A",
-        "Q3": "A",
-        "Q4": "A",
-        "Q5": "A",
-        "Q6": "B",
-        "Q7": "A",
-        "Q8": "B",
-        "Q9": "B"
-      },
-      "feature": "政府只要沒有國會多數反對即可留任；部長可兼任議員，也可來自國會之外。採一院制與比例代表選舉。",
-      "tradeoff": "政府可能以跨黨協商或少數政府方式推動政策，談判能納入不同意見，但也需要付出協調成本。",
-      "discussion": "你希望少數政府能先上任，再逐案尋求國會支持嗎？",
-      "sources": [
-        "DK1",
-        "DK2",
-        "DK3",
-        "DKCIT"
-      ],
-      "notes": "格陵蘭與法羅群島有自治安排，不能把非聯邦概括成所有地區由中央統一決定。丹麥部長多為議員，但法律沒有要求必須如此。 人民立法參與：人民提案取得5萬支持後，可由議員正式提出決議案；不是人民直接提交完整法律案。",
-      "short_feature": "總理帶領政府，只要沒有國會多數反對，就能維持執政。"
+      "notes": "聯邦參議院是代表邦政府的特殊機關。德國選制以政黨票決定席次比例，不能直接等同臺灣並立制。",
+      "short_feature": "總理由國會選出。撤換總理時，國會須同時選出接任者。",
+      "group": "parl"
     },
     {
       "id": "us",
@@ -785,14 +316,10 @@
       "system": "總統制",
       "profile": {
         "Q1": "B",
-        "Q2": "D",
-        "Q3": "B",
+        "Q2": "C",
         "Q4": "C",
-        "Q5": "D",
-        "Q6": "C",
-        "Q7": "A",
-        "Q8": "B",
-        "Q9": "A"
+        "Q5": "C",
+        "Q6": "C"
       },
       "feature": "總統領導行政，與國會分別有民意授權和固定任期。總統沒有解散國會權，國會不能用普通不信任案撤換總統；重要行政任命須經參議院同意。",
       "tradeoff": "行政與國會多數意見不同時，分權提供制衡，也可能導致協商困難與政治僵局。",
@@ -801,8 +328,9 @@
         "US1",
         "US2"
       ],
-      "notes": "部會首長在總統領導下行使行政職權，不能說成完全沒有行政權。國會聽證與調查不等於內閣制的信任責任。眾議院選制各州有少數例外。 人民立法參與：此處比較聯邦層級；部分州的人民創制與公投不代表聯邦也有相同制度。",
-      "short_feature": "總統領導行政，與國會分別對人民負責。國會不能用不信任案讓總統下臺。"
+      "notes": "部會首長在總統領導下行使行政職權，不能說成完全沒有行政權。國會聽證與調查不等於內閣制的信任責任。眾議院選制各州有少數例外。",
+      "short_feature": "總統領導行政，與國會分別對人民負責。國會不能用不信任案讓總統下臺。",
+      "group": "pres"
     },
     {
       "id": "kr",
@@ -811,13 +339,9 @@
       "profile": {
         "Q1": "B",
         "Q2": "C",
-        "Q3": "B",
         "Q4": "C",
-        "Q5": "D",
-        "Q6": "B",
-        "Q7": "A",
-        "Q8": "A",
-        "Q9": "C"
+        "Q5": "C",
+        "Q6": "B"
       },
       "feature": "民選總統領導行政，國務總理由總統任命並須經國會同意。總統五年一任不得連任；國會一院制，議員可兼任總理或國務委員。",
       "tradeoff": "單任期能限制總統連續執政，但也沒有連任選舉讓選民決定是否給現任總統第二任。",
@@ -828,8 +352,9 @@
         "KR3",
         "KRPET"
       ],
-      "notes": "南韓有政府提案、國會質詢與兼任安排，不能套用美國全部細節。國會撤換建議不等於具有強制效果的不信任案。 人民立法參與：國會連署請願可交議會處理，但不等於人民正式提出法律案。",
-      "short_feature": "民選總統領導行政，國務總理協助。總理任命須經國會同意。"
+      "notes": "南韓有政府提案、國會質詢與兼任安排，不能套用美國全部細節。國會撤換建議不等於具有強制效果的不信任案。",
+      "short_feature": "民選總統領導行政，國務總理協助。總理任命須經國會同意。",
+      "group": "pres"
     },
     {
       "id": "fr",
@@ -838,13 +363,9 @@
       "profile": {
         "Q1": "C",
         "Q2": "C",
-        "Q3": "A",
         "Q4": "A",
-        "Q5": "C",
-        "Q6": "C",
-        "Q7": "A",
-        "Q8": "A",
-        "Q9": "A"
+        "Q5": "B",
+        "Q6": "C"
       },
       "feature": "民選總統與總理並存，政府須向國會負責。總統在憲法限制下可解散國民議會，無須先有倒閣；兩院並存，國民議會採兩輪選舉。",
       "tradeoff": "總統與國會多數立場不同時，總統和總理的互動需要調整；雙首長安排本身不保證權責清楚或政治合作。",
@@ -855,35 +376,9 @@
         "FR3",
         "FRRIP"
       ],
-      "notes": "總理由總統任命，政府須面對國會不信任，但不必固定先取得上任信任投票。不能說任何情況都必須由席次最多政黨組閣。 人民立法參與：共同倡議須先有國會議員提案，再取得選民支持；不是人民單獨連署就必然舉行公投。",
-      "short_feature": "民選總統與總理分擔行政工作，政府須向國會負責。"
-    },
-    {
-      "id": "pt",
-      "name": "葡萄牙",
-      "system": "混合制／半總統制",
-      "profile": {
-        "Q1": "C",
-        "Q2": "C",
-        "Q3": "A",
-        "Q4": "A",
-        "Q5": "C",
-        "Q6": "C",
-        "Q7": "B",
-        "Q8": "A",
-        "Q9": "B"
-      },
-      "feature": "總統由人民直接選出，任命總理時須考量國會選舉結果；政府向國會承擔政治責任。採一院制與比例代表選舉，總統有附帶憲法條件的解散權。",
-      "tradeoff": "行政安排要同時處理民選總統的憲法職能與國會對政府的政治責任，組閣及解散仍須遵守程序。",
-      "discussion": "你希望總統任命總理時，必須多大程度受到國會選舉結果限制？",
-      "sources": [
-        "PT1",
-        "PT2",
-        "PT3",
-        "PTCIT"
-      ],
-      "notes": "總統不能只因一般政策分歧任意罷免政府；憲法對政府免職有特定條件。其總統角色與法國相異，不將兩國解散、免職權視為完全一致。 人民立法參與：至少2萬名登記選民可提出符合規定的法律案，由國會審議。人民公投倡議另有國會及總統程序。",
-      "short_feature": "民選總統任命總理時，須考量國會選舉結果；政府向國會承擔政治責任。"
+      "notes": "總理由總統任命，政府須面對國會不信任，但不必固定先取得上任信任投票。不能說任何情況都必須由席次最多政黨組閣。",
+      "short_feature": "民選總統與總理分擔行政工作，政府須向國會負責。",
+      "group": "semi"
     },
     {
       "id": "tw",
@@ -892,15 +387,11 @@
       "profile": {
         "Q1": "C",
         "Q2": "C",
-        "Q3": "C",
         "Q4": "A",
-        "Q5": "B",
-        "Q6": "C",
-        "Q7": "C",
-        "Q8": "C",
-        "Q9": "C"
+        "Q5": "A",
+        "Q6": "C"
       },
-      "feature": "總統民選並任命行政院院長，上任無须立法院事先同意。行政院向立法院負責；立法院通過不信任案後，行政院院長得呈請總統解散立法院。",
+      "feature": "總統民選並任命行政院院長，上任無須立法院事先同意。行政院向立法院負責；立法院通過不信任案後，行政院院長得呈請總統解散立法院。",
       "tradeoff": "行政院院長須面對立法院的政治責任，但任命權在總統，可能產生雙重負責及權責辨識的問題。",
       "discussion": "總統任命的人選與立法院多數不同調時，你希望由誰調整或讓步？",
       "sources": [
@@ -908,8 +399,9 @@
         "TW2",
         "TWREF"
       ],
-      "notes": "總統不能因一般政策衝突主動解散立法院；倒閣通過也不表示一定解散。分類依講義，學術分類用語可有差異。均權原則另在中央地方單元說明。 人民立法參與：立法原則公投通過後仍須研擬法律案、送立法院審議，不能說全民直接通過完整法律條文。",
-      "short_feature": "總統任命行政院院長，行政院向立法院負責。立法院可以提出不信任案。"
+      "notes": "總統不能因一般政策衝突主動解散立法院；倒閣通過也不表示一定解散。分類依講義，學術分類用語可有差異。",
+      "short_feature": "總統任命行政院院長，行政院向立法院負責。立法院可以提出不信任案。",
+      "group": "semi"
     }
   ],
   "sources": {
@@ -945,62 +437,6 @@
       "title": "德國聯邦選舉機關：2025後適用的選制",
       "url": "https://bundeswahlleiterin.de/en/bundestagswahlen/2025/informationen-waehler/wahlsystem.html"
     },
-    "JP1": {
-      "title": "日本眾議院：日本國憲法，第1、4、41、65–74條",
-      "url": "https://www.shugiin.go.jp/internet/itdb_english.nsf/html/statics/english/constitution_e.htm"
-    },
-    "JP2": {
-      "title": "日本眾議院：國會組成與選制",
-      "url": "https://www.shugiin.go.jp/internet/itdb_english.nsf/html/statics/guide/structure.htm"
-    },
-    "CA1": {
-      "title": "加拿大下議院：議會制度、聯邦架構與信任慣例",
-      "url": "https://www.ourcommons.ca/procedure/our-procedure/parliamentaryFramework/c_g_parliamentaryframework-e.html"
-    },
-    "CA2": {
-      "title": "加拿大選舉機關：相對多數制",
-      "url": "https://www.elections.ca/content.aspx?dir=bkg&document=polsys&lang=e&section=vot"
-    },
-    "AU1": {
-      "title": "澳洲國會：澳洲政府體制",
-      "url": "https://www.aph.gov.au/About_Parliament/House_of_Representatives/Powers_practice_and_procedure/00_-_Infosheets/Infosheet_20_-_The_Australian_system_of_government"
-    },
-    "AU2": {
-      "title": "澳洲國會：參議院",
-      "url": "https://www.aph.gov.au/About_Parliament/Senate/About_the_Senate"
-    },
-    "AU3": {
-      "title": "澳洲選舉機關：偏好投票",
-      "url": "https://www.aec.gov.au/learn/preferential-voting.htm"
-    },
-    "SE1": {
-      "title": "瑞典國會：組成政府與信任",
-      "url": "https://www.riksdagen.se/en/how-the-riksdag-works/democracy/forming-a-government/"
-    },
-    "SE2": {
-      "title": "瑞典國會：基本法，政府、替補議員及額外選舉",
-      "url": "https://www.riksdagen.se/globalassets/03.-dokument-och-lagar/bestall-och-ladda-ner/other-languages/grundlagar-2023-engelsk-web.pdf"
-    },
-    "SE3": {
-      "title": "瑞典選舉機關：比例席次分配",
-      "url": "https://www.val.se/english/the-swedish-electoral-system/distribution-of-seats"
-    },
-    "SE4": {
-      "title": "瑞典國會：額外選舉",
-      "url": "https://www.riksdagen.se/en/how-the-riksdag-works/democracy/elections-to-the-riksdag/"
-    },
-    "DK1": {
-      "title": "丹麥國會：政府與部長",
-      "url": "https://www.thedanishparliament.dk/en/democracy/the-government"
-    },
-    "DK2": {
-      "title": "丹麥國會：憲法，第14–16、32、41條",
-      "url": "https://www.thedanishparliament.dk/-/media/sites/ft/pdf/publikationer/the-constitutional-act-of-denmark.pdf"
-    },
-    "DK3": {
-      "title": "丹麥國會：選舉與比例分配",
-      "url": "https://www.thedanishparliament.dk/en/democracy/elections-and-voting"
-    },
     "US1": {
       "title": "美國參議院：美國憲法及修正案",
       "url": "https://www.senate.gov/civics/constitution_item/constitution.htm"
@@ -1033,18 +469,6 @@
       "title": "法國參議院：間接選舉",
       "url": "https://www.senat.fr/connaitre-le-senat/role-et-fonctionnement/mode-delection-des-senateurs.html"
     },
-    "PT1": {
-      "title": "葡萄牙國會：憲法，第6、121、123、133、154、167、172、187、190–195條",
-      "url": "https://www.parlamento.pt/sites/EN/Parliament/Documents/Constitution7th.pdf"
-    },
-    "PT2": {
-      "title": "葡萄牙總統府：總統職權及任命條件",
-      "url": "https://www.presidencia.pt/en-en/president-of-the-republic/duties-of-the-president/"
-    },
-    "PT3": {
-      "title": "葡萄牙國會：比例代表選制",
-      "url": "https://www.parlamento.pt/Parlamento/Paginas/SistemaEleitoral.aspx"
-    },
     "TW1": {
       "title": "總統府：憲法增修條文，第2–4條",
       "url": "https://www.president.gov.tw/Page/95"
@@ -1053,41 +477,13 @@
       "title": "總統府：中華民國憲法，第37、58、118條",
       "url": "https://www.president.gov.tw/Page/94"
     },
-    "TW111": {
-      "title": "總統府：釋字第498號解釋（中央地方分權與憲法第111條）",
-      "url": "https://www.president.gov.tw/Page/294/35359"
-    },
-    "TWCEC": {
-      "title": "中央選舉委員會：立委候選人票與政黨票說明",
-      "url": "https://web.cec.gov.tw/api/file/98f5e62d-e1d6-4b8f-bd7f-292d2028d166.pdf"
-    },
     "UKPET": {
       "title": "英國國會：請願與辯論",
       "url": "https://www.parliament.uk/about/how/business/debates/"
     },
-    "CAPET": {
-      "title": "加拿大下議院：人民請願",
-      "url": "https://www.ourcommons.ca/petitions/en/Home/Index"
-    },
-    "AUPET": {
-      "title": "澳洲國會：請願制度",
-      "url": "https://www.aph.gov.au/About_Parliament/House_of_Representatives/Powers_practice_and_procedure/00_-_Infosheets/Infosheet_11_-_Petitions"
-    },
     "DEPET": {
       "title": "德國聯邦議院：請願制度",
       "url": "https://www.bundestag.de/ausschuesse/a02_Petitionsausschuss"
-    },
-    "JPET": {
-      "title": "日本參議院：請願程序",
-      "url": "https://www.sangiin.go.jp/japanese/annai/seigan.html"
-    },
-    "SELAW": {
-      "title": "瑞典政府：法律如何制定",
-      "url": "https://www.government.se/how-sweden-is-governed/swedish-legislation---how-laws-are-made/"
-    },
-    "DKCIT": {
-      "title": "丹麥國會人民提案平台：支持與提案程序",
-      "url": "https://www.borgerforslag.dk/"
     },
     "KRPET": {
       "title": "南韓政府民願中心：國會連署請願程序",
@@ -1097,911 +493,53 @@
       "title": "法國內政部：共同倡議公投程序",
       "url": "https://www.elections.interieur.gouv.fr/scrutins/consultations/referendum-dinitiative-partagee-rip"
     },
-    "PTCIT": {
-      "title": "葡萄牙國會：人民立法倡議法",
-      "url": "https://www.parlamento.pt/sites/EN/Parliament/Documents/LeiIniciativaCidadaosEN.pdf"
-    },
     "TWREF": {
       "title": "中央選舉委員會：公民投票法第2、30條",
       "url": "https://law.cec.gov.tw/LawContent.aspx?id=GL000290"
-    },
-    "SELOCAL": {
-      "title": "瑞典國會：憲法與地方自治",
-      "url": "https://www.riksdagen.se/en/how-the-riksdag-works/democracy/the-constitution/"
     }
   },
   "scoring": {
-    "total_weight": 100,
-    "core_weight": 80,
-    "extension_weight": 20,
+    "total_weight": 66,
+    "core_weight": 66,
     "exact_match": 1,
     "default_mismatch": 0,
     "partial_match_definition": "使用各題明列的對稱配對，若有country_overrides則依該國專屬係數。均為透明的教學配對模型，不是實證心理量表。",
     "rounding": "最後一步四捨五入到整數；排序與並列先比較未四捨五入分數。",
     "tie_rule": "最高原始分數相同者全部並列，不以國名或資料順序選唯一冠軍。",
-    "near_rule": "距最高原始分數不超過5分者列為相近配對；顯示全部12國可展開。",
-    "completion_rule": "須回答全部12題才能計分；未答不可當作0分。",
-    "system_rule": "制度傾向以Q1–Q8核心分數在各制度組內取最高值作比較，不累加國家數。",
+    "near_rule": "距最高原始分數不超過5分者列為相近配對。",
+    "completion_rule": "須回答全部5題才能計分；未答不可當作0分。",
+    "system_rule": "制度傾向以5題加權分數，在內閣制、總統制、混合制各組內取最高的國家分數比較，不累加國家數。",
     "result_note": "百分比是答案與本測驗制度特徵的加權相似程度，不是移居、國民性或實際生活適應預測。",
-    "version_note": "1.3版第三題由六項合併為三項，國家對應及部分符合規則同步重整；舊版作答不直接沿用。"
+    "version_note": "4.0版移除9題完整版，只保留5題白話版與6個代表國家。",
+    "question_rule": "每題3個選項；Q2「由人民選出」包含直接選舉與美國選舉人制，Q5「由總理請求」包含只限特殊情況的德國、臺灣。百分比為5題加權分數除以總權重。"
   },
-  "worked_example": {
-    "answers": {
-      "Q1": "C",
-      "Q2": "D",
-      "Q3": "A",
-      "Q4": "B",
-      "Q5": "C",
-      "Q6": "B",
-      "Q7": "B",
-      "Q8": "A",
-      "Q9": "A"
+  "systems": [
+    {
+      "id": "parl",
+      "name": "內閣制",
+      "color": "#1d4fb8",
+      "tint": "#e3ebfb",
+      "definition": "國會支持誰，誰就組政府。總理帶領內閣施政，國會不信任就得下臺；國王或總統主要是國家的象徵。",
+      "think": "如果國會不再支持總理，政府換人要多久？這是優點還是缺點？",
+      "examples": "英國、日本、德國"
     },
-    "results": [
-      {
-        "id": "fr",
-        "name": "法國",
-        "raw": 72,
-        "percent": 72,
-        "core_percent": 73,
-        "details": [
-          {
-            "question": "Q1",
-            "selected": "C",
-            "target": "C",
-            "match": 1,
-            "weight": 18
-          },
-          {
-            "question": "Q2",
-            "selected": "D",
-            "target": "C",
-            "match": 0.5,
-            "weight": 10
-          },
-          {
-            "question": "Q3",
-            "selected": "A",
-            "target": "A",
-            "match": 1,
-            "weight": 14
-          },
-          {
-            "question": "Q4",
-            "selected": "B",
-            "target": "A",
-            "match": 0.5,
-            "weight": 14
-          },
-          {
-            "question": "Q5",
-            "selected": "C",
-            "target": "C",
-            "match": 1,
-            "weight": 14
-          },
-          {
-            "question": "Q6",
-            "selected": "B",
-            "target": "C",
-            "match": 0,
-            "weight": 10
-          },
-          {
-            "question": "Q7",
-            "selected": "B",
-            "target": "A",
-            "match": 0,
-            "weight": 6
-          },
-          {
-            "question": "Q8",
-            "selected": "A",
-            "target": "A",
-            "match": 1,
-            "weight": 7
-          },
-          {
-            "question": "Q9",
-            "selected": "A",
-            "target": "A",
-            "match": 1,
-            "weight": 7
-          }
-        ]
-      },
-      {
-        "id": "pt",
-        "name": "葡萄牙",
-        "raw": 71,
-        "percent": 71,
-        "core_percent": 73,
-        "details": [
-          {
-            "question": "Q1",
-            "selected": "C",
-            "target": "C",
-            "match": 1,
-            "weight": 18
-          },
-          {
-            "question": "Q2",
-            "selected": "D",
-            "target": "C",
-            "match": 0.5,
-            "weight": 10
-          },
-          {
-            "question": "Q3",
-            "selected": "A",
-            "target": "A",
-            "match": 1,
-            "weight": 14
-          },
-          {
-            "question": "Q4",
-            "selected": "B",
-            "target": "A",
-            "match": 0.5,
-            "weight": 14
-          },
-          {
-            "question": "Q5",
-            "selected": "C",
-            "target": "C",
-            "match": 1,
-            "weight": 14
-          },
-          {
-            "question": "Q6",
-            "selected": "B",
-            "target": "C",
-            "match": 0,
-            "weight": 10
-          },
-          {
-            "question": "Q7",
-            "selected": "B",
-            "target": "B",
-            "match": 1,
-            "weight": 6
-          },
-          {
-            "question": "Q8",
-            "selected": "A",
-            "target": "A",
-            "match": 1,
-            "weight": 7
-          },
-          {
-            "question": "Q9",
-            "selected": "A",
-            "target": "B",
-            "match": 0,
-            "weight": 7
-          }
-        ]
-      },
-      {
-        "id": "de",
-        "name": "德國",
-        "raw": 66,
-        "percent": 66,
-        "core_percent": 74,
-        "details": [
-          {
-            "question": "Q1",
-            "selected": "C",
-            "target": "A",
-            "match": 0.5,
-            "weight": 18
-          },
-          {
-            "question": "Q2",
-            "selected": "D",
-            "target": "B",
-            "match": 0.5,
-            "weight": 10
-          },
-          {
-            "question": "Q3",
-            "selected": "A",
-            "target": "A",
-            "match": 1,
-            "weight": 14
-          },
-          {
-            "question": "Q4",
-            "selected": "B",
-            "target": "B",
-            "match": 1,
-            "weight": 14
-          },
-          {
-            "question": "Q5",
-            "selected": "C",
-            "target": "B",
-            "match": 0.5,
-            "weight": 14
-          },
-          {
-            "question": "Q6",
-            "selected": "B",
-            "target": "B",
-            "match": 1,
-            "weight": 10
-          },
-          {
-            "question": "Q7",
-            "selected": "B",
-            "target": "A",
-            "match": 0,
-            "weight": 6
-          },
-          {
-            "question": "Q8",
-            "selected": "A",
-            "target": "B",
-            "match": 0.5,
-            "weight": 7
-          },
-          {
-            "question": "Q9",
-            "selected": "A",
-            "target": "C",
-            "match": 0.5,
-            "weight": 7
-          }
-        ]
-      },
-      {
-        "id": "dk",
-        "name": "丹麥",
-        "raw": 53.5,
-        "percent": 54,
-        "core_percent": 59,
-        "details": [
-          {
-            "question": "Q1",
-            "selected": "C",
-            "target": "A",
-            "match": 0.5,
-            "weight": 18
-          },
-          {
-            "question": "Q2",
-            "selected": "D",
-            "target": "A",
-            "match": 0,
-            "weight": 10
-          },
-          {
-            "question": "Q3",
-            "selected": "A",
-            "target": "A",
-            "match": 1,
-            "weight": 14
-          },
-          {
-            "question": "Q4",
-            "selected": "B",
-            "target": "A",
-            "match": 0.5,
-            "weight": 14
-          },
-          {
-            "question": "Q5",
-            "selected": "C",
-            "target": "A",
-            "match": 0.5,
-            "weight": 14
-          },
-          {
-            "question": "Q6",
-            "selected": "B",
-            "target": "B",
-            "match": 1,
-            "weight": 10
-          },
-          {
-            "question": "Q7",
-            "selected": "B",
-            "target": "A",
-            "match": 0.5,
-            "weight": 6
-          },
-          {
-            "question": "Q8",
-            "selected": "A",
-            "target": "B",
-            "match": 0.5,
-            "weight": 7
-          },
-          {
-            "question": "Q9",
-            "selected": "A",
-            "target": "B",
-            "match": 0,
-            "weight": 7
-          }
-        ]
-      },
-      {
-        "id": "au",
-        "name": "澳洲",
-        "raw": 52.5,
-        "percent": 53,
-        "core_percent": 53,
-        "details": [
-          {
-            "question": "Q1",
-            "selected": "C",
-            "target": "A",
-            "match": 0.5,
-            "weight": 18
-          },
-          {
-            "question": "Q2",
-            "selected": "D",
-            "target": "A",
-            "match": 0,
-            "weight": 10
-          },
-          {
-            "question": "Q3",
-            "selected": "A",
-            "target": "A",
-            "match": 1,
-            "weight": 14
-          },
-          {
-            "question": "Q4",
-            "selected": "B",
-            "target": "A",
-            "match": 0.5,
-            "weight": 14
-          },
-          {
-            "question": "Q5",
-            "selected": "C",
-            "target": "A",
-            "match": 0.5,
-            "weight": 14
-          },
-          {
-            "question": "Q6",
-            "selected": "B",
-            "target": "A",
-            "match": 0.5,
-            "weight": 10
-          },
-          {
-            "question": "Q7",
-            "selected": "B",
-            "target": "A",
-            "match": 0,
-            "weight": 6
-          },
-          {
-            "question": "Q8",
-            "selected": "A",
-            "target": "B",
-            "match": 0.5,
-            "weight": 7
-          },
-          {
-            "question": "Q9",
-            "selected": "A",
-            "target": "A",
-            "match": 1,
-            "weight": 7
-          }
-        ]
-      },
-      {
-        "id": "ca",
-        "name": "加拿大",
-        "raw": 52.5,
-        "percent": 53,
-        "core_percent": 53,
-        "details": [
-          {
-            "question": "Q1",
-            "selected": "C",
-            "target": "A",
-            "match": 0.5,
-            "weight": 18
-          },
-          {
-            "question": "Q2",
-            "selected": "D",
-            "target": "A",
-            "match": 0,
-            "weight": 10
-          },
-          {
-            "question": "Q3",
-            "selected": "A",
-            "target": "A",
-            "match": 1,
-            "weight": 14
-          },
-          {
-            "question": "Q4",
-            "selected": "B",
-            "target": "A",
-            "match": 0.5,
-            "weight": 14
-          },
-          {
-            "question": "Q5",
-            "selected": "C",
-            "target": "A",
-            "match": 0.5,
-            "weight": 14
-          },
-          {
-            "question": "Q6",
-            "selected": "B",
-            "target": "A",
-            "match": 0.5,
-            "weight": 10
-          },
-          {
-            "question": "Q7",
-            "selected": "B",
-            "target": "A",
-            "match": 0,
-            "weight": 6
-          },
-          {
-            "question": "Q8",
-            "selected": "A",
-            "target": "B",
-            "match": 0.5,
-            "weight": 7
-          },
-          {
-            "question": "Q9",
-            "selected": "A",
-            "target": "A",
-            "match": 1,
-            "weight": 7
-          }
-        ]
-      },
-      {
-        "id": "jp",
-        "name": "日本",
-        "raw": 52.5,
-        "percent": 53,
-        "core_percent": 53,
-        "details": [
-          {
-            "question": "Q1",
-            "selected": "C",
-            "target": "A",
-            "match": 0.5,
-            "weight": 18
-          },
-          {
-            "question": "Q2",
-            "selected": "D",
-            "target": "A",
-            "match": 0,
-            "weight": 10
-          },
-          {
-            "question": "Q3",
-            "selected": "A",
-            "target": "A",
-            "match": 1,
-            "weight": 14
-          },
-          {
-            "question": "Q4",
-            "selected": "B",
-            "target": "A",
-            "match": 0.5,
-            "weight": 14
-          },
-          {
-            "question": "Q5",
-            "selected": "C",
-            "target": "A",
-            "match": 0.5,
-            "weight": 14
-          },
-          {
-            "question": "Q6",
-            "selected": "B",
-            "target": "A",
-            "match": 0.5,
-            "weight": 10
-          },
-          {
-            "question": "Q7",
-            "selected": "B",
-            "target": "A",
-            "match": 0,
-            "weight": 6
-          },
-          {
-            "question": "Q8",
-            "selected": "A",
-            "target": "A",
-            "match": 1,
-            "weight": 7
-          },
-          {
-            "question": "Q9",
-            "selected": "A",
-            "target": "C",
-            "match": 0.5,
-            "weight": 7
-          }
-        ]
-      },
-      {
-        "id": "uk",
-        "name": "英國",
-        "raw": 52.5,
-        "percent": 53,
-        "core_percent": 53,
-        "details": [
-          {
-            "question": "Q1",
-            "selected": "C",
-            "target": "A",
-            "match": 0.5,
-            "weight": 18
-          },
-          {
-            "question": "Q2",
-            "selected": "D",
-            "target": "A",
-            "match": 0,
-            "weight": 10
-          },
-          {
-            "question": "Q3",
-            "selected": "A",
-            "target": "A",
-            "match": 1,
-            "weight": 14
-          },
-          {
-            "question": "Q4",
-            "selected": "B",
-            "target": "A",
-            "match": 0.5,
-            "weight": 14
-          },
-          {
-            "question": "Q5",
-            "selected": "C",
-            "target": "A",
-            "match": 0.5,
-            "weight": 14
-          },
-          {
-            "question": "Q6",
-            "selected": "B",
-            "target": "A",
-            "match": 0.5,
-            "weight": 10
-          },
-          {
-            "question": "Q7",
-            "selected": "B",
-            "target": "A",
-            "match": 0,
-            "weight": 6
-          },
-          {
-            "question": "Q8",
-            "selected": "A",
-            "target": "B",
-            "match": 0.5,
-            "weight": 7
-          },
-          {
-            "question": "Q9",
-            "selected": "A",
-            "target": "A",
-            "match": 1,
-            "weight": 7
-          }
-        ]
-      },
-      {
-        "id": "tw",
-        "name": "臺灣",
-        "raw": 47,
-        "percent": 47,
-        "core_percent": 46,
-        "details": [
-          {
-            "question": "Q1",
-            "selected": "C",
-            "target": "C",
-            "match": 1,
-            "weight": 18
-          },
-          {
-            "question": "Q2",
-            "selected": "D",
-            "target": "C",
-            "match": 0.5,
-            "weight": 10
-          },
-          {
-            "question": "Q3",
-            "selected": "A",
-            "target": "C",
-            "match": 0,
-            "weight": 14
-          },
-          {
-            "question": "Q4",
-            "selected": "B",
-            "target": "A",
-            "match": 0.5,
-            "weight": 14
-          },
-          {
-            "question": "Q5",
-            "selected": "C",
-            "target": "B",
-            "match": 0.5,
-            "weight": 14
-          },
-          {
-            "question": "Q6",
-            "selected": "B",
-            "target": "C",
-            "match": 0,
-            "weight": 10
-          },
-          {
-            "question": "Q7",
-            "selected": "B",
-            "target": "C",
-            "match": 0.5,
-            "weight": 6
-          },
-          {
-            "question": "Q8",
-            "selected": "A",
-            "target": "C",
-            "match": 0.5,
-            "weight": 7
-          },
-          {
-            "question": "Q9",
-            "selected": "A",
-            "target": "C",
-            "match": 0.5,
-            "weight": 7
-          }
-        ]
-      },
-      {
-        "id": "kr",
-        "name": "南韓",
-        "raw": 44.5,
-        "percent": 45,
-        "core_percent": 39,
-        "details": [
-          {
-            "question": "Q1",
-            "selected": "C",
-            "target": "B",
-            "match": 0.5,
-            "weight": 18
-          },
-          {
-            "question": "Q2",
-            "selected": "D",
-            "target": "C",
-            "match": 0.5,
-            "weight": 10
-          },
-          {
-            "question": "Q3",
-            "selected": "A",
-            "target": "B",
-            "match": 0.5,
-            "weight": 14
-          },
-          {
-            "question": "Q4",
-            "selected": "B",
-            "target": "C",
-            "match": 0,
-            "weight": 14
-          },
-          {
-            "question": "Q5",
-            "selected": "C",
-            "target": "D",
-            "match": 0,
-            "weight": 14
-          },
-          {
-            "question": "Q6",
-            "selected": "B",
-            "target": "B",
-            "match": 1,
-            "weight": 10
-          },
-          {
-            "question": "Q7",
-            "selected": "B",
-            "target": "A",
-            "match": 0.5,
-            "weight": 6
-          },
-          {
-            "question": "Q8",
-            "selected": "A",
-            "target": "A",
-            "match": 1,
-            "weight": 7
-          },
-          {
-            "question": "Q9",
-            "selected": "A",
-            "target": "C",
-            "match": 0.5,
-            "weight": 7
-          }
-        ]
-      },
-      {
-        "id": "se",
-        "name": "瑞典",
-        "raw": 40.5,
-        "percent": 41,
-        "core_percent": 46,
-        "details": [
-          {
-            "question": "Q1",
-            "selected": "C",
-            "target": "A",
-            "match": 0.5,
-            "weight": 18
-          },
-          {
-            "question": "Q2",
-            "selected": "D",
-            "target": "A",
-            "match": 0,
-            "weight": 10
-          },
-          {
-            "question": "Q3",
-            "selected": "A",
-            "target": "A",
-            "match": 1,
-            "weight": 14
-          },
-          {
-            "question": "Q4",
-            "selected": "B",
-            "target": "A",
-            "match": 0.5,
-            "weight": 14
-          },
-          {
-            "question": "Q5",
-            "selected": "C",
-            "target": "A",
-            "match": 0.5,
-            "weight": 14
-          },
-          {
-            "question": "Q6",
-            "selected": "B",
-            "target": "C",
-            "match": 0,
-            "weight": 10
-          },
-          {
-            "question": "Q7",
-            "selected": "B",
-            "target": "A",
-            "match": 0,
-            "weight": 6
-          },
-          {
-            "question": "Q8",
-            "selected": "A",
-            "target": "B",
-            "match": 0.5,
-            "weight": 7
-          },
-          {
-            "question": "Q9",
-            "selected": "A",
-            "target": "B",
-            "match": 0,
-            "weight": 7
-          }
-        ]
-      },
-      {
-        "id": "us",
-        "name": "美國",
-        "raw": 36.5,
-        "percent": 37,
-        "core_percent": 33,
-        "details": [
-          {
-            "question": "Q1",
-            "selected": "C",
-            "target": "B",
-            "match": 0.5,
-            "weight": 18
-          },
-          {
-            "question": "Q2",
-            "selected": "D",
-            "target": "D",
-            "match": 1,
-            "weight": 10
-          },
-          {
-            "question": "Q3",
-            "selected": "A",
-            "target": "B",
-            "match": 0.5,
-            "weight": 14
-          },
-          {
-            "question": "Q4",
-            "selected": "B",
-            "target": "C",
-            "match": 0,
-            "weight": 14
-          },
-          {
-            "question": "Q5",
-            "selected": "C",
-            "target": "D",
-            "match": 0,
-            "weight": 14
-          },
-          {
-            "question": "Q6",
-            "selected": "B",
-            "target": "C",
-            "match": 0,
-            "weight": 10
-          },
-          {
-            "question": "Q7",
-            "selected": "B",
-            "target": "A",
-            "match": 0,
-            "weight": 6
-          },
-          {
-            "question": "Q8",
-            "selected": "A",
-            "target": "B",
-            "match": 0.5,
-            "weight": 7
-          },
-          {
-            "question": "Q9",
-            "selected": "A",
-            "target": "A",
-            "match": 1,
-            "weight": 7
-          }
-        ]
-      }
-    ]
-  }
+    {
+      "id": "pres",
+      "name": "總統制",
+      "color": "#c8372a",
+      "tint": "#fbe6e3",
+      "definition": "人民選出總統來帶領政府。總統和國會各有固定任期，國會不能用不信任案讓總統下臺，兩邊互相制衡。",
+      "think": "總統和國會多數如果來自不同政黨，政策會順利推動嗎？",
+      "examples": "美國、南韓"
+    },
+    {
+      "id": "semi",
+      "name": "混合制",
+      "color": "#6a3db3",
+      "tint": "#ece5f8",
+      "definition": "民選總統握有實權，另有總理帶領內閣，並向國會負責。總統和總理一起分擔行政工作。",
+      "think": "總統和總理意見不同時，應該聽誰的？",
+      "examples": "法國、臺灣"
+    }
+  ]
 }
